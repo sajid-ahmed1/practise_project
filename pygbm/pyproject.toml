@@ -1,0 +1,12 @@
+[build-system]
+requires = ['setuptools', 'setuptools-scm', 'wheel']
+
+[project]
+name = "pygbm"
+version = "1.0.0"
+
+[tool.setuptools]
+packages = ["pygbm"]
+
+[project.scripts]
+pygbm = "pygbm.cli:main"
