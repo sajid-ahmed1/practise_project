@@ -4,9 +4,12 @@ requires = ['setuptools', 'setuptools-scm', 'wheel']
 [project]
 name = "pygbm"
 version = "1.0.0"
+description = "A Python package for simulating Brownian motions"
+reqyires-python = ">=3.9"
 
 [tool.setuptools]
 packages = ["pygbm"]
 
 [project.scripts]
-pygbm = "pygbm.cli:main"
+main = "pygbm.cli:main"
+# type main in the CLI or whatever function name you put in

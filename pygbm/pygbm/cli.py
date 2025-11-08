@@ -1,7 +1,9 @@
 import argparse
 from .gbm import GBMSimulator
 
+
 def main():
+
     parser = argparse.ArgumentParser(description="Simulate a Geometric Brownian Motion")
     parser.add_argument("--s0", type=float, default=100)
     parser.add_argument("--mu", type=float, default=0.05)
